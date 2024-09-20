@@ -1,7 +1,5 @@
 # Getting started with XAMPP Portable
 
-In this module we will install a web server and database on a USB memory stick. You can then use this when at home and when you come into university.
-
 The following explains how to install XAMPP (Cross-platform(X), Apache(A),Mysql/MariaDB(M), PHP\(P\), Perl\(P\))
 
 Installing and getting up and running with XAMPP is easy but you need to make sure you download the correct version. You need to make sure you are using a PHP version that is 8.2 or greater. **MAKE SURE YOU DOWNLOAD THE ZIP AND NOT THE .EXE**.
