@@ -35,4 +35,4 @@ Your web applications are run from the *htdocs* folder.
 
 ## Important
 * It is your responsibility to look after your USB stick. You will probably 
-* Back-up your work regularly. It's very easy to leave it in a machine by accident, lose it, damage it, so makr sure you back-up reguarly. 
+* Back-up your work regularly. It's very easy to leave it in a machine by accident, lose it, damage it, so make sure you back-up reguarly. 
