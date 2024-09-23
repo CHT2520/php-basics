@@ -6,4 +6,4 @@
 * In VS Code open the file *intro-to-php.php*
 * View this page in a web browser e.g. http://localhost/php-basics You should see some text saying 'Welcome to PHP'.
 * Answer the questions in *intro-to-php.php*.
-* Use the *basic-programming-concepts-in-php.md* to help you to answer the questions.
+* Use the [basic-programming-concepts-in-php.md](basic-programming-concepts-in-php.md) to help you to answer the questions.
