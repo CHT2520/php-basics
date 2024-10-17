@@ -5,7 +5,7 @@ The following explains how to install XAMPP (Cross-platform(X), Apache(A),Mysql/
 
 Installing and getting up and running with XAMPP is fairly easy but you need to make sure you download the correct version. You need to make sure you are using a PHP version that is 8.2 or greater. **MAKE SURE YOU DOWNLOAD THE ZIP AND NOT THE .EXE**.
 
-Open a browser and [download this file](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-portable-windows-x64-8.2.12-0-VS16.zip/download)
+Open a browser and [download this XAMPP version](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-portable-windows-x64-8.2.12-0-VS16.zip/download)
 
 Unzip the resulting file into the **root** of your USB drive. It might take a bit of time.
 
