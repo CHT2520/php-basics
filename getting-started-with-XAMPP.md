@@ -58,8 +58,9 @@ The most likely explanatation is that you have multiple instances of XAMP runnin
 
 
 ## If you are using your PC/Laptop/Macbook
-
-Go to [https://www.apachefriends.org/](https://www.apachefriends.org/). Select the correct XAMPP version for your platform. Down and run the .exe. file. 
+- Go to [https://www.apachefriends.org/](https://www.apachefriends.org/). 
+- Select the correct XAMPP version for your platform. 
+- Down and run the .exe. file. 
 
 ## Where do I put my HTML, CSS and PHP files?
 Your web applications are run from the *htdocs* folder.
