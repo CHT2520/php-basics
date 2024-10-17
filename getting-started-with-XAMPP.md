@@ -49,7 +49,7 @@ The most likely explanatation is that you have multiple instances of XAMP runnin
 - Try and start the server agin.
   
 #### MySQL still won't start
-- If when you start MySQL it starts and then almost imediately shuts down, you can try the following fix - https://stackoverflow.com/questions/18022809/how-can-i-solve-error-mysql-shutdown-unexpectedly. Follow the instruction for the highest ranked answer. The ones that start 'Important: do not delete the ibdata1 file. You could destroy all your databases.' Essentially these instructions get you to use the back-up data to fix your database.
+- If when you start MySQL it starts and then almost imediately shuts down, you can try the following fix - https://stackoverflow.com/questions/18022809/how-can-i-solve-error-mysql-shutdown-unexpectedly. Follow the instructions for the highest ranked answer. The one that starts *'Important: do not delete the ibdata1 file. You could destroy all your databases.'* Essentially these instructions get you to use the back-up data to fix your database.
 
 
 ### Important
