@@ -16,7 +16,8 @@ Unzip the resulting file into the **root** of your USB drive. It might take a bi
 * A control panel should open
 * Start the Apache web server
 * Start MySQL
-* Open a web browser and point it at http://localhost. You should see the xampp homepage.
+* Open a web browser and point it at http://localhost. You should see your xampp homepage.
+* Click on phpMyAdmin to check this is also working.
 
 When you've finished working:-
 * You have to remember to stop Apache and MySQL before ejecting the USB.
