@@ -23,8 +23,8 @@ When you've finished working:-
 * You have to remember to stop Apache and MySQL before ejecting the USB.
 * It's also worth checking on the taskbar under hidden items to make sure you haven't got multiple instances of XAMPP running.
 
-### What to do if XAMPP doesn't work e.g. Apache/MySQL won't start
-First double check the following:
+### What to do if XAMPP doesn't work
+If it is your first time using XAMPP, and Apache/MySQL won't start, double check the following:
 1. You have downloaded the correct version. MAKE SURE YOU USE THE .zip. DON'T USE THE .exe.
 2. You have unzipped XAMPP into the root of you USB drive. Do not put it in a sub-folder!
 
@@ -32,7 +32,7 @@ This should fix nearly all problems.
 
 ### What can else can go wrong?
 
-#### You've check the above advice and Apache/MySQL still won't start
+#### XAMPP used to work but now Apache/MySQL won't start
 The most likely explanatation is that you have multiple instances of XAMP running which then come into conflict with each other.
 - Stop Apache and MySQL
 - Close down the control panel.
