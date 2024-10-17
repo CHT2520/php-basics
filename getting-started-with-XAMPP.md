@@ -25,7 +25,7 @@ When you've finished working:-
 
 ### What to do if XAMPP doesn't work
 If it is your first time using XAMPP, and Apache/MySQL won't start, double check the following:
-1. You have downloaded the correct version. MAKE SURE YOU USE THE .zip. DON'T USE THE .exe.
+1. You have downloaded the correct version. MAKE SURE YOU USE THE .zip. DON'T USE THE .exe. This shouldn't be an issue if you have followed the link above. 
 2. You have unzipped XAMPP into the root of you USB drive. Do not put it in a sub-folder!
 
 This should fix nearly all problems.
