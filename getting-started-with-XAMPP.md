@@ -28,9 +28,9 @@ First double check the following:
 1. You have downloaded the correct version. MAKE SURE YOU USE THE .zip. DON'T USE THE .exe.
 2. You have unzipped XAMPP into the root of you USB drive. Do not put it in a sub-folder!
 
+This should fix nearly all problems.
 
 ### What can else can go wrong?
-First, double check the above, this should fix nearly all problems.
 
 #### Apache/MySQL won't start
 The most likely explanatation is that you have multiple instances of XAMP running which then come into conflict with each other.
