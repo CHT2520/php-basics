@@ -1,7 +1,4 @@
-# Getting started with XAMPP 
-
-## Getting the right version
-### If you are using a USB Stick
+# Getting started with XAMPP on a USB Stick
 
 The following explains how to install XAMPP (Cross-platform(X), Apache(A),Mysql/MariaDB(M), PHP\(P\), Perl\(P\))
 
@@ -9,7 +6,7 @@ Installing and getting up and running with XAMPP is easy but you need to make su
 
 Open a browser and [download this file](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-portable-windows-x64-8.2.12-0-VS16.zip/download)
 
-Download *xampp-portable-windows-x64-8.2.12-0-VS16.zip*. Unzip the resulting file into the **root** of your USB drive. It might take a bit of time.
+Unzip the resulting file into the **root** of your USB drive. It might take a bit of time.
 
 > What do I mean by the root of the USB? When you view the files on the USB there should be a folder called XAMPP. You shouldn't have to click into any other folders first. When you go into the XAMPP folder there should be a file called xampp-control.exe. So the following would be correct D:\xampp\xampp-control.exe, and this would be incorrect D:\xampp-portable-windows-x64-8.2.12-0-VS16.zip\xampp\xampp-control.exe.
 
@@ -20,12 +17,28 @@ Download *xampp-portable-windows-x64-8.2.12-0-VS16.zip*. Unzip the resulting fil
 * Start MySQL
 * Open a web browser and point it at http://localhost. You should see the xampp homepage.
 
-#### What to do if it doesn't work
+## What to do if it doesn't work
 Check the following:
 1. You have downloaded the correct version. MAKE SURE YOU USE THE .zip. DON'T USE THE .exe.
 2. You have unzipped the folder into the root of you USB drive. Do not put it in a sub-folder.
 
-#### What can go wrong?
+This should fix nearly all problems.
+
+## What can go wrong?
+
+### Apache/MySQL won't start
+The most likely explanatation is that you have multiple instances of XAMP running which then come into conflict with each other.
+- Stop Apache and MySQL
+- Close down the control panel.
+- Checking on the taskbar under hidden items to make sure you haven't got multiple instances of XAMPP running. If you have right-click and shut them down.
+- Use task manager (CTRL+ALT+DEL). Under background process look for Httpd, or Apache or mysql. If any of these processes are running right-click to end the process.
+- Restart XAMPP, hopefully everything will now work okay.
+
+#### Apache still won't start
+- From the control panel, next Apache, select logs, and then error logs.
+#### MySQL still won't start
+- If when you start MySQL it starts and them almost imediately shuts down, you can try the following fix - https://stackoverflow.com/questions/18022809/how-can-i-solve-error-mysql-shutdown-unexpectedly . Follow the instruction for the highest ranked answer. The ones that start 'Important: do not delete the ibdata1 file. You could destroy all your databases.' Essentially these instructions get you to use the back-up data to fix your database. 
+* 
 * You have to remember to stop Apache and MySQL before ejecting the USB.
 * It's also worth checking on the taskbar under hidden items to make sure you haven't got multiple instances of XAMPP running.
 
