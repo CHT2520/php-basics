@@ -58,7 +58,7 @@ The most likely explanatation is that you have multiple instances of XAMP runnin
 
 
 ## If you are using your PC/Laptop/Macbook
-- Go to [https://www.apachefriends.org/](https://www.apachefriends.org/). 
+- Go to [https://www.apachefriends.org/](https://www.apachefriends.org/).
 - Select the correct XAMPP version for your platform. 
 - Down and run the .exe. file. 
 
