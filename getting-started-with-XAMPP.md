@@ -37,11 +37,12 @@ The most likely explanatation is that you have multiple instances of XAMP runnin
 - Stop Apache and MySQL
 - Close down the control panel.
 - Check on the taskbar under hidden items to make sure you haven't got multiple instances of XAMPP running. If you have, right-click and shut them down.
-- Use task manager (CTRL+ALT+DEL). Under background process look for *Httpd*, or *Apache* or *mysql*. If any of these processes are running right-click to end the process.
+- Restart XAMPP, hopefully everything will now work okay. 
+- If it doesn't work, stop Apache and MySQL. Open task manager (CTRL+ALT+DEL). Under background process look for *Httpd*, or *Apache* or *mysql*. If any of these processes are running right-click to end the process.
 - Restart XAMPP, hopefully everything will now work okay.
 
 #### Apache still won't start
-- By default Apache uses port 80. It could be that there is another service running on port 80.
+- By default Apache uses port 80. It's rare but it could be that there is another service running on port 80.
 - From the control panel, next to Apache select config, a configuration file will open. On about Line 60 it will say ```Listen 80```.
 - Change this to ```Listen 81```
 - Save the *httpd.conf* file.
@@ -51,7 +52,7 @@ The most likely explanatation is that you have multiple instances of XAMP runnin
 - If when you start MySQL it starts and them almost imediately shuts down, you can try the following fix - https://stackoverflow.com/questions/18022809/how-can-i-solve-error-mysql-shutdown-unexpectedly. Follow the instruction for the highest ranked answer. The ones that start 'Important: do not delete the ibdata1 file. You could destroy all your databases.' Essentially these instructions get you to use the back-up data to fix your database.
 
 
-#### Important
+### Important
 * It is your responsibility to look after your USB stick. You will probably 
 * Back-up your work regularly. It's very easy to leave it in a machine by accident, lose it, damage it, so make sure you back-up reguarly. 
 
@@ -63,8 +64,8 @@ Go to [https://www.apachefriends.org/](https://www.apachefriends.org/). Select t
 ## Where do I put my HTML, CSS and PHP files?
 Your web applications are run from the *htdocs* folder.
 * Navigate to the *htdocs* folder
-* Create a new folder e.g. CHT2520
-* Create a simple php page e.g. *test.php* and save it in the *CHT2520* folder
-* Navigate to http://localhost/CHT2520/test.php to check it works.
+* Create a new folder e.g. *practicals*
+* Create a simple php page e.g. *test.php* and save it in the *practicals* folder
+* Navigate to *http://localhost/practicals/test.php* to check it works.
 
 
